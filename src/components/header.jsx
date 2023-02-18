@@ -44,7 +44,7 @@ function Header(props) {
                         </li>
                         <li className="nav-item fw-bold mx-3">
                             <button className='p-3 nav-connect'>
-                                <span className="fw-bold">Let's Connect</span></button>
+                                <a className="fw-bold" href="#contact">Let's Connect</a></button>
                         </li>
                     </ul>
                 </div>

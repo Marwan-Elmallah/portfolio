@@ -9,7 +9,7 @@ const Home = (props) => {
                     <div className="col-md-6 col-sm-12">
                         <div className="card">
                             <div className="card-body">
-                                <p className="card-text welc"style={{ width: "20rem" }}>Welcome to my Portfolio</p>
+                                <p className="card-text welc my-sm-5"style={{ width: "20rem" }}>Welcome to my Portfolio</p>
                                 <h1 className="card-title my-4 hi">Hi, I'm Marwan Elmallah<p className="fs-3 lh-lg">
                                 <TypeIt
                                     getBeforeInit={(instance) => {

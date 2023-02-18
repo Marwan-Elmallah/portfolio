@@ -309,10 +309,15 @@ textarea::placeholder{
   border-color: white;
 }
 
-.nav-connect:hover span {
+.nav-connect:hover a {
   position: relative;
   z-index: 99;
   color: black;
+}
+
+.nav-connect a {
+  text-decoration: none !important;
+  color: white;
 }
 
 

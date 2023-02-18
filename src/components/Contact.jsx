@@ -2,7 +2,7 @@ import React from 'react';
 import contactImg from "../assets/img/contact-img.svg"
 function Contact(props) {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className="container py-5">
                 <div className="row d-flex align-items-center">
                     <div className="contact-img col-md-6">
