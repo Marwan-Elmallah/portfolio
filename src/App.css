@@ -93,8 +93,8 @@
   animation-direction: normal;
   animation-fill-mode: none;
   animation-play-state: running;
-  position: absolute;
   width: 75%;
+  position: relative;
 }
 @keyframes moving{
   0% {top: 0;}
@@ -112,7 +112,7 @@
   border-radius: 64px !important;
   text-align: center;
   padding: 60px 50px !important;
-  top: -30px;
+  top: -20px;
   position: relative;
 }
 

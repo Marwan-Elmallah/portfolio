@@ -9,11 +9,6 @@ import Skills from './components/Skills';
 
 function App() {
 
-
-  useEffect(() => {
-    document.getElementById("mainImg").classList.add("animateImg")
-  })
-
   window.onscroll = () => {
     const nav = document.getElementById("nav")
     const mainImg = document.getElementById("mainImg")

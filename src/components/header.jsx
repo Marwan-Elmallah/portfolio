@@ -15,7 +15,7 @@ function Header(props) {
                     <span className="navbar-toggler-icon"/>
                 </button>
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul className="nav nav-pills d-flex justify-content-end w-100 align-items-center">
+                    <ul className="nav nav-pills d-flex justify-content-center w-100 align-items-center">
                         <li className="nav-item fw-bold mx-3">
                             <a className={"nav-link fs-5 text-light" + activate1} href="#home" onClick={(e) => {
                                 setActivate1("active")
