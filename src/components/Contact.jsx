@@ -1,6 +1,8 @@
 import React from 'react';
 import contactImg from "../assets/img/contact-img.svg"
 function Contact(props) {
+
+
     return (
         <div className='contact' id='contact'>
             <div className="container py-5">
@@ -17,7 +19,7 @@ function Contact(props) {
                             <input type="mobile" name="phone" id="phone" placeholder='Phone Number'className='col-md-6 col-sm-12'/>
                             <textarea name="message" id="message" cols="20" rows="10" className='col-12' placeholder='Message'></textarea>
                         </form>
-                        <button className='m-3 py-3 px-5 contact-form-btn'>
+                        <button className='m-3 py-3 px-5 contact-form-btn' onClick={(e)=> e.currentTarget.childNodes[0].innerHTML = "Sending..."}>
                             <span className='fw-bolder'>SEND</span>
                         </button>
                     </div>

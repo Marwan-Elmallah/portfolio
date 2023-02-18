@@ -8,7 +8,7 @@ function Footer(props) {
                     <h2 className='col-md-6 col-sm-12'>Subscribe to our Newsletter & Never miss latest updates</h2>
                     <div className="subscribe-email col-md-6 col-sm-12 row align-items-center">
                         <input type="email" placeholder='Email Address' className='col-8 email-input'/>
-                        <input type="button" value="SEND" className='col-4 send-btn'/>
+                        <input type="button" value="SEND" className='col-4 send-btn' onClick={(e)=> e.currentTarget.value = "Sending..."}/>
                     </div>
                 </div>
             </div>
