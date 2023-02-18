@@ -15,10 +15,10 @@ function App() {
     let scrollPosition = window.scrollY
     if(scrollPosition >= 200){
         nav.style = "background: black; transition: 1s"
-      if(scrollPosition < 600){
+      if(scrollPosition < 700 && scrollPosition > 500){
         mainImg.classList.add("animateImg")
         setTimeout(() => {mainImg.classList.remove("animateImg")},1000)
-      }else if (scrollPosition > 600){
+      }else if (scrollPosition > 700){
         mainImg.classList.remove("animateImg")
         if(scrollPosition > 1900){
           contactImg.classList.add("animateImg")
